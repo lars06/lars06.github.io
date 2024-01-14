@@ -13,6 +13,7 @@ function App() {
           </h1>
       </div>
       <PhotoGrid/>
+      <p className="disclaimer">© 2023 Lars Mellick</p>
     </div>
   );
 }
