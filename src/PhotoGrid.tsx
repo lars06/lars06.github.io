@@ -42,7 +42,7 @@ const PhotoGrid = () => {
         <li><img src={blanc} className="large-landscape-img" alt="Mont Blanc"/></li>
         <li><img src={lasr} className="small-portrait-img" alt="DJlasr"/></li>
         <li><img src={lonely} className="large-landscape-img" alt="Lonely"/></li>
-        <li><img src={crane} className="large-landscape-img" alt="Crane"/></li>
+        <li><img src={crane} className="small-landscape-img" alt="Crane"/></li>
         <li><img src={acappella} className="large-portrait-img" alt="Acappella"/></li>
         <li><img src={building} className="large-landscape-img" alt="Building"/></li>
         <li><img src={bike} className="small-landscape-img" alt="Bike"/></li>
@@ -55,7 +55,7 @@ const PhotoGrid = () => {
         <li><img src={zoom} className="large-landscape-img" alt="Zoom"/></li>
         <li><img src={graf} className="small-landscape-img" alt="Graf"/></li>
         <li><img src={drip} className="large-portrait-img" alt="Drip"/></li>
-        <li><img src={smoko} className="large-landscape-img" alt="Smoko"/></li>
+        <li><img src={smoko} className="small-landscape-img" alt="Smoko"/></li>
         <li><img src={hike} className="large-portrait-img" alt="Hike"/></li>
       </ul>
   </div>
