@@ -1,45 +1,48 @@
-#lars {
+* {
+    margin: 0;
+}
+
+.App {
+    min-height: 100vh;
+    background-color: #000000;
+}
+
+.title {
+    min-width: 100vw;
+    min-height: 100vh;
+    font-size: calc(50px + 5vmin);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: fixed;
     text-shadow: 0px 0px 3px black;
 }
 
-.App-header {
-  background-color: #000000;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  text-align: center;
-  justify-content: center;
-  font-size: calc(50px + 5vmin);
-  color: white;
-}
-
-ul {
+.photos ul {
     list-style-type: none;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: calc(5px + 1vw);
     align-items: center;
+    align-content: center;
     justify-content: center;
-    padding-inline-start: 10px;
-    padding-inline-end: 10px
 }
 
 .small-landscape-img {
-  width: calc(80px + 16vw);
+    width: calc(80px + 16vw);
 }
 
 .large-landscape-img {
-  width: calc(80px + 20vw);
+    width: calc(80px + 20vw);
 
 }
 
 .small-portrait-img {
-  width: calc(80px + 8vw);
+    width: calc(80px + 8vw);
 }
 
 .large-portrait-img {
-  width: calc(80px + 12vw);
+    width: calc(80px + 12vw);
 }

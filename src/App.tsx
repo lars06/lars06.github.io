@@ -12,10 +12,12 @@ import jcm from './resources/background-images/jcm.jpeg';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1 id="lars">
-          lars
-        </h1>
+      <div className="title">
+          <h1 id="lars">
+            lars
+          </h1>
+      </div>
+      <div className="photos">
         <ul>
           <li><img src={cliffs} className="small-landscape-img" alt="Cliffs"/></li>
           <li><img src={stairs} className="large-landscape-img" alt="Stairs"/></li>
@@ -26,7 +28,7 @@ function App() {
           <li><img src={jcm} className="small-landscape-img" alt="Musicians"/></li>
           <li><img src={blanc} className="large-landscape-img" alt="Mont Blanc"/></li>
         </ul>
-      </header>
+      </div>
     </div>
   );
 }
