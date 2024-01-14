@@ -8,7 +8,6 @@ import watering from './resources/background-images/watering.jpeg';
 import lonely from './resources/background-images/lonely.jpeg';
 import bridge from './resources/background-images/bridge.jpeg';
 import blanc from './resources/background-images/blanc.jpeg';
-import jcm from './resources/background-images/jcm.jpeg';
 import sailor from './resources/background-images/sailor.gif';
 import acappella from './resources/background-images/acappella.gif';
 import bike from './resources/background-images/bike.jpeg';
