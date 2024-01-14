@@ -1,10 +1,33 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 .App {
     min-height: 100vh;
     background-color: #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    min-width: 100vw;
+    min-height: 2.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    z-index: 100;
+    background-color: #141414;
+}
+
+nav a {
+    font-size: calc(10px + 1vmin);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0px 0px 3px black;
 }
 
 .title {
@@ -22,6 +45,7 @@
 .photos ul {
     list-style-type: none;
     padding: 20px;
+    padding-top: 90px;
     display: flex;
     flex-wrap: wrap;
     gap: calc(5px + 1vw);
