@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import NavBar from './NavBar';
 import PhotoGrid from './PhotoGrid';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           </h1>
       </div>
       <PhotoGrid/>
-      <p className="disclaimer">© 2023 Lars Mellick</p>
+      <Footer/>
     </div>
   );
 }

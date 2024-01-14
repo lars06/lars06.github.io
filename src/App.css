@@ -52,7 +52,7 @@ nav a {
     list-style-type: none;
     padding: 2.5vw;
     padding-top: 9vh;
-    padding-bottom: 7vh;
+    padding-bottom: 5vh;
     display: flex;
     flex-wrap: wrap;
     gap: calc(5px + 1vw);
@@ -75,6 +75,14 @@ nav a {
 
 .large-portrait-img {
     width: calc(70px + 8vw);
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: calc(5px + 1vw);
+    padding-bottom: 2vh;
 }
 
 .disclaimer {
