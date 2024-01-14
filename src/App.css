@@ -16,15 +16,15 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     position: fixed;
     z-index: 100;
     background-color: #222222;
 }
 
 nav a {
-    font-size: calc(10px + 1vmin);
+    font-size: calc(8px + 1.5vmin);
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -49,8 +49,8 @@ nav a {
 .photos ul {
     list-style-type: none;
     padding: 20px;
-    padding-top: 90px;
-    padding-bottom: 100px;
+    padding-top: 9vh;
+    padding-bottom: 10vh;
     display: flex;
     flex-wrap: wrap;
     gap: calc(5px + 1vw);
@@ -78,6 +78,6 @@ nav a {
 
 .disclaimer {
     color: lightgrey;
-    padding: 20px;
-    font-size: 12px;
+    padding: 2vh;
+    font-size: 10px;
 }
