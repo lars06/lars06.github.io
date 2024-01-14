@@ -31,18 +31,18 @@
 }
 
 .small-landscape-img {
-    width: calc(80px + 16vw);
+    width: calc(70px + 14vw);
 }
 
 .large-landscape-img {
-    width: calc(80px + 20vw);
+    width: calc(70px + 18vw);
 
 }
 
 .small-portrait-img {
-    width: calc(80px + 8vw);
+    width: calc(70px + 5vw);
 }
 
 .large-portrait-img {
-    width: calc(80px + 12vw);
+    width: calc(70px + 8vw);
 }
