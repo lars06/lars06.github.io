@@ -25,6 +25,8 @@ import drip from './resources/background-images/drip.jpeg';
 import hike from './resources/background-images/hike.gif';
 import graf from './resources/background-images/graf.jpeg';
 import rolling from './resources/background-images/rolling.jpeg';
+import lasr from './resources/background-images/lasr.gif';
+import lake from './resources/background-images/lake.jpeg';
 
 const PhotoGrid = () => {
   return (
@@ -38,7 +40,7 @@ const PhotoGrid = () => {
         <li><img src={bridge} className="small-landscape-img" alt="Bridge"/></li>
         <li><img src={reflect} className="large-portrait-img" alt="Reflect"/></li>
         <li><img src={blanc} className="large-landscape-img" alt="Mont Blanc"/></li>
-        <li><img src={lostweekend} className="small-portrait-img" alt="Lostweekend"/></li>
+        <li><img src={lasr} className="small-portrait-img" alt="DJlasr"/></li>
         <li><img src={lonely} className="large-landscape-img" alt="Lonely"/></li>
         <li><img src={crane} className="large-landscape-img" alt="Crane"/></li>
         <li><img src={acappella} className="large-portrait-img" alt="Acappella"/></li>
@@ -46,13 +48,15 @@ const PhotoGrid = () => {
         <li><img src={bike} className="small-landscape-img" alt="Bike"/></li>
         <li><img src={embrace} className="large-portrait-img" alt="Embrace"/></li>
         <li><img src={rolling} className="large-landscape-img" alt="Rolling"/></li>
+        <li><img src={lake} className="large-portrait-img" alt="Lake"/></li>
         <li><img src={cliffs} className="small-landscape-img" alt="Cliffs"/></li>
+        <li><img src={lostweekend} className="small-portrait-img" alt="Lostweekend"/></li>
         <li><img src={clothes} className="large-landscape-img" alt="Clothes"/></li>
-        <li><img src={hike} className="large-portrait-img" alt="Hike"/></li>
         <li><img src={zoom} className="large-landscape-img" alt="Zoom"/></li>
         <li><img src={graf} className="small-landscape-img" alt="Graf"/></li>
         <li><img src={drip} className="large-portrait-img" alt="Drip"/></li>
         <li><img src={smoko} className="large-landscape-img" alt="Smoko"/></li>
+        <li><img src={hike} className="large-portrait-img" alt="Hike"/></li>
       </ul>
   </div>
   );

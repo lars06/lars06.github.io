@@ -24,11 +24,12 @@ nav ul {
 }
 
 nav a {
-    font-size: calc(8px + 1.5vmin);
+    font-size: calc(10px + 1.5vmin);
     color: white;
     font-weight: bold;
     text-decoration: none;
     text-shadow: 0px 0px 3px black;
+    user-select: none;
     &:hover {
         color: lightgray;
     }
@@ -44,13 +45,14 @@ nav a {
     justify-content: center;
     position: fixed;
     text-shadow: 0px 0px 80px black;
+    user-select: none;
 }
 
 .photos ul {
     list-style-type: none;
-    padding: 20px;
+    padding: 2.5vw;
     padding-top: 9vh;
-    padding-bottom: 10vh;
+    padding-bottom: 7vh;
     display: flex;
     flex-wrap: wrap;
     gap: calc(5px + 1vw);
@@ -65,7 +67,6 @@ nav a {
 
 .large-landscape-img {
     width: calc(70px + 18vw);
-
 }
 
 .small-portrait-img {
