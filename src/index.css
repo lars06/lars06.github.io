@@ -96,6 +96,7 @@ a.active {
     position: fixed;
     bottom: 4vh;
     width: 100vw;
+    z-index: 100;
 }
 
 .socialsPill {
