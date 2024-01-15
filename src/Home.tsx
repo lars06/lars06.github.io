@@ -1,15 +1,13 @@
 import React from 'react';
-import './App.css';
-import NavBar from './NavBar';
+import './index.css';
 import PhotoGrid from './PhotoGrid';
 import SocialsPill from './SocialsPill';
 
-function App() {
+function Home() {
   return (
-    <div className="App">
-      <NavBar/>
+    <div>
       <div className="title">
-          <h1 id="lars">
+          <h1>
             lars
           </h1>
       </div>
@@ -19,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

@@ -1,31 +1,31 @@
 import React from 'react';
-import './App.css';
+import './index.css';
 
-import cliffs from './resources/background-images/cliffs.jpeg';
-import stairs from './resources/background-images/stairs.jpeg';
-import piano from './resources/background-images/piano.jpeg';
-import watering from './resources/background-images/watering.jpeg';
-import lonely from './resources/background-images/lonely.jpeg';
-import bridge from './resources/background-images/bridge.jpeg';
-import blanc from './resources/background-images/blanc.jpeg';
-import sailor from './resources/background-images/sailor.gif';
-import acappella from './resources/background-images/acappella.gif';
-import bike from './resources/background-images/bike.jpeg';
-import building from './resources/background-images/building.jpeg';
-import crane from './resources/background-images/crane.jpeg';
-import embrace from './resources/background-images/embrace.jpeg';
-import lostweekend from './resources/background-images/lostweekend.gif';
-import reflect from './resources/background-images/reflect.jpeg';
-import smoko from './resources/background-images/smoko.jpeg';
-import zoom from './resources/background-images/zoom.jpeg';
-import clothes from './resources/background-images/clothes.jpeg';
-import cloud from './resources/background-images/cloud.jpeg';
-import drip from './resources/background-images/drip.jpeg';
-import hike from './resources/background-images/hike.gif';
-import graf from './resources/background-images/graf.jpeg';
-import rolling from './resources/background-images/rolling.jpeg';
-import lasr from './resources/background-images/lasr.gif';
-import lake from './resources/background-images/lake.jpeg';
+import cliffs from './background-images/cliffs.jpeg';
+import stairs from './background-images/stairs.jpeg';
+import piano from './background-images/piano.jpeg';
+import watering from './background-images/watering.jpeg';
+import lonely from './background-images/lonely.jpeg';
+import bridge from './background-images/bridge.jpeg';
+import blanc from './background-images/blanc.jpeg';
+import sailor from './background-images/sailor.gif';
+import acappella from './background-images/acappella.gif';
+import bike from './background-images/bike.jpeg';
+import building from './background-images/building.jpeg';
+import crane from './background-images/crane.jpeg';
+import embrace from './background-images/embrace.jpeg';
+import lostweekend from './background-images/lostweekend.gif';
+import reflect from './background-images/reflect.jpeg';
+import smoko from './background-images/smoko.jpeg';
+import zoom from './background-images/zoom.jpeg';
+import clothes from './background-images/clothes.jpeg';
+import cloud from './background-images/cloud.jpeg';
+import drip from './background-images/drip.jpeg';
+import hike from './background-images/hike.gif';
+import graf from './background-images/graf.jpeg';
+import rolling from './background-images/rolling.jpeg';
+import lasr from './background-images/lasr.gif';
+import lake from './background-images/lake.jpeg';
 
 const PhotoGrid = () => {
   return (
