@@ -21,10 +21,11 @@ nav ul {
     position: fixed;
     z-index: 100;
     background-color: #222222;
+    box-shadow: 0px 0px 60px black;
 }
 
 nav a {
-    font-size: calc(10px + 1.5vmin);
+    font-size: calc(10px + 2vmin);
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -51,8 +52,8 @@ nav a {
 .photos ul {
     list-style-type: none;
     padding: 2.5vw;
-    padding-top: 9vh;
-    padding-bottom: 5vh;
+    padding-top: 10vh;
+    padding-bottom: 15vh;
     display: flex;
     flex-wrap: wrap;
     gap: calc(5px + 1vw);
@@ -79,14 +80,21 @@ nav a {
 
 .socials {
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: calc(5px + 1vw);
-    padding-bottom: 2vh;
+    position: fixed;
+    bottom: 4vh;
+    width: 100%;
 }
 
-.disclaimer {
-    color: lightgrey;
-    padding: 2vh;
-    font-size: 10px;
+.pill {
+    gap: calc(5px + 1vw);
+    display: flex;
+    align-items: center;
+    background-color: #222222;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    padding-left: 1.75em;
+    padding-right: 1.75em;
+    border-radius: 20em;
+    box-shadow: 0px 0px 80px black;
 }
