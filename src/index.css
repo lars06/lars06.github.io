@@ -106,3 +106,25 @@ nav a {
     border-radius: 20em;
     box-shadow: 0px 0px 50px black;
 }
+
+.content {
+    padding-top: 15vh;
+    padding-left: 15vw;
+}
+
+.content h1 {
+    font-size: calc(40px + 4vmin);
+    color: white;
+    padding-bottom: 4vh;
+}
+
+.content h2 {
+    font-size: calc(10px + 3vmin);
+    color: white;
+    padding-bottom: 2vh;
+}
+
+.content p {
+    font-size: calc(12px + 2vmin);
+    color: white;
+}
