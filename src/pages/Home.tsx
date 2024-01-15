@@ -1,6 +1,7 @@
 import React from 'react';
-import './index.css';
-import PhotoGrid from './PhotoGrid';
+import '../index.css';
+
+import PhotoGrid from '../components/PhotoGrid';
 
 function Home() {
   return (

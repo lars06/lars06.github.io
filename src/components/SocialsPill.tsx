@@ -1,6 +1,6 @@
 import React from 'react';
-import './index.css';
 import { SocialIcon } from 'react-social-icons'
+import '../index.css';
 
 const SocialsPill = () => {
   return (

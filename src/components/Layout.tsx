@@ -1,6 +1,7 @@
 import React from 'react';
-import './index.css';
 import { Outlet, NavLink } from "react-router-dom";
+import '../index.css';
+
 import SocialsPill from './SocialsPill';
 
 const Layout = () => {

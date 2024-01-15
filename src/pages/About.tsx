@@ -1,12 +1,13 @@
 import React from 'react';
-import './index.css';
-import model1 from './background-images/model-1.jpeg';
-import model2 from './background-images/model-2.jpeg';
-import model3 from './background-images/model-3.jpeg';
-import model4 from './background-images/model-4.jpeg';
-import model5 from './background-images/model-5.jpeg';
-import model6 from './background-images/model-6.jpeg';
-import model7 from './background-images/model-7.jpeg';
+import '../index.css';
+
+import model1 from '../background-images/model-1.jpeg';
+import model2 from '../background-images/model-2.jpeg';
+import model3 from '../background-images/model-3.jpeg';
+import model4 from '../background-images/model-4.jpeg';
+import model5 from '../background-images/model-5.jpeg';
+import model6 from '../background-images/model-6.jpeg';
+import model7 from '../background-images/model-7.jpeg';
 
 function About() {
   return (
