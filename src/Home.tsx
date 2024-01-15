@@ -1,7 +1,6 @@
 import React from 'react';
 import './index.css';
 import PhotoGrid from './PhotoGrid';
-import SocialsPill from './SocialsPill';
 
 function Home() {
   return (
@@ -12,7 +11,6 @@ function Home() {
           </h1>
       </div>
       <PhotoGrid/>
-      <SocialsPill/>
     </div>
   );
 }

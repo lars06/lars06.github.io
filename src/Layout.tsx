@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
 import { Outlet, Link } from "react-router-dom";
+import SocialsPill from './SocialsPill';
 
 const Layout = () => {
   return (
@@ -12,6 +13,7 @@ const Layout = () => {
           <li><Link to="/music">music</Link></li>
         </ul>
       </nav>
+      <SocialsPill/>
       <Outlet/>
     </div>
   );
