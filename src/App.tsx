@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import NavBar from './NavBar';
 import PhotoGrid from './PhotoGrid';
-import SocialPill from './SocialPill';
+import SocialsPill from './SocialsPill';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           </h1>
       </div>
       <PhotoGrid/>
-      <SocialPill/>
+      <SocialsPill/>
     </div>
   );
 }

@@ -34,8 +34,8 @@ const PhotoGrid = () => {
         <li><img src={sailor} className="small-portrait-img" alt="Sailor"/></li>
         <li><img src={cloud} className="large-landscape-img" alt="Zoom"/></li>
         <li><img src={stairs} className="small-landscape-img" alt="Stairs"/></li>
-        <li><img src={piano} className="large-portrait-img" alt="Piano"/></li>
         <li><img src={watering} className="large-landscape-img" alt="Watering"/></li>
+        <li><img src={piano} className="large-portrait-img" alt="Piano"/></li>
         <li><img src={bridge} className="small-landscape-img" alt="Bridge"/></li>
         <li><img src={reflect} className="large-portrait-img" alt="Reflect"/></li>
         <li><img src={blanc} className="large-landscape-img" alt="Mont Blanc"/></li>

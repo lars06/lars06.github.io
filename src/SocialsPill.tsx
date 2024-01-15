@@ -2,10 +2,10 @@ import React from 'react';
 import './App.css';
 import { SocialIcon } from 'react-social-icons'
 
-const SocialPill = () => {
+const SocialsPill = () => {
   return (
-    <div className="socials">
-        <div className="pill">
+    <div className="socialsContainer">
+        <div className="socialsPill">
             <SocialIcon url="https://www.instagram.com/lars.mellick"/>
             <SocialIcon url="https://soundcloud.com/larsmellick"/>
             <SocialIcon url="https://linkedin.com/in/larsmellick"/>
@@ -15,4 +15,4 @@ const SocialPill = () => {
   );
 };
 
-export default SocialPill;
+export default SocialsPill;
