@@ -43,7 +43,7 @@ nav a {
         color: lightgray;
     }
 }
-a.active {
+nav a.active {
     text-decoration: underline;
     text-decoration-color: lightgray;
 }
@@ -64,7 +64,7 @@ a.active {
 .photos ul {
     list-style-type: none;
     padding: 2.5vw;
-    padding-top: 4vh;
+    padding-top: 4.5vh;
     padding-bottom: 15vh;
     display: flex;
     flex-wrap: wrap;
@@ -94,7 +94,7 @@ a.active {
     display: flex;
     justify-content: center;
     position: fixed;
-    bottom: 4vh;
+    bottom: 3vh;
     width: 100vw;
     z-index: 100;
 }
@@ -109,7 +109,7 @@ a.active {
     padding-left: 1.75em;
     padding-right: 1.75em;
     border-radius: 20em;
-    box-shadow: 0px 0px 50px black;
+    box-shadow: 0px 0px 30px black;
 }
 
 .content {
@@ -130,6 +130,19 @@ a.active {
 }
 
 .content p {
-    font-size: calc(12px + 2vmin);
+    font-size: calc(10px + 2vmin);
     color: white;
+    padding-bottom: 2vh;
+}
+
+.soundcloudList {
+    display: block;
+    width: 25vw;
+    padding-bottom: 1.25em;
+}
+
+.soundcloudFrame {
+    width: calc(150px + 30vw);
+    height: 150px;
+    margin-bottom: 1em;
 }
