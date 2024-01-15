@@ -43,6 +43,10 @@ nav a {
         color: lightgray;
     }
 }
+a.active {
+    text-decoration: underline;
+    text-decoration-color: lightgray;
+}
 
 .title {
     min-width: 100vw;
