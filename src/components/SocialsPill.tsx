@@ -9,7 +9,7 @@ const SocialsPill = () => {
             <SocialIcon url="https://www.instagram.com/lars.mellick" target="_blank"/>
             <SocialIcon url="https://soundcloud.com/larsmellick" target="_blank"/>
             <SocialIcon url="https://linkedin.com/in/larsmellick" target="_blank"/>
-            <SocialIcon url="mailto:larsmellick@me.com?subject=Hi" target="_blank"/>
+            <SocialIcon url="mailto:hi@lars.au?subject=hi from website"/>
         </div>
     </div>
   );
