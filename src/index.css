@@ -64,7 +64,7 @@ nav a.active {
 .photos ul {
     list-style-type: none;
     padding: 2.5vw;
-    padding-top: 4.5vh;
+    padding-top: 5vh;
     padding-bottom: 15vh;
     display: flex;
     flex-wrap: wrap;
@@ -146,4 +146,10 @@ nav a.active {
     width: calc(150px + 30vw);
     height: 150px;
     margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 800px) {
+    .photos ul {
+        padding-top: 9vh;
+    }
 }
