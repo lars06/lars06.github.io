@@ -7,9 +7,7 @@ function Home() {
   return (
     <div>
       <div className="title">
-          <h1>
-            lars
-          </h1>
+          <h1>lars</h1>
       </div>
       <PhotoGrid/>
     </div>

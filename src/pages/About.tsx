@@ -1,12 +1,12 @@
 import React from 'react';
 import '../index.css';
 
-import model1 from '../background-images/model-1.jpeg';
-import model2 from '../background-images/model-2.jpeg';
-import model4 from '../background-images/model-4.jpeg';
-import model5 from '../background-images/model-5.jpeg';
-import model6 from '../background-images/model-6.jpeg';
-import model7 from '../background-images/model-7.jpeg';
+import action1 from '../background-images/action-1.jpeg';
+import action2 from '../background-images/action-2.jpeg';
+import action3 from '../background-images/action-3.jpeg';
+import action4 from '../background-images/action-4.jpeg';
+import action5 from '../background-images/action-5.jpeg';
+import action6 from '../background-images/action-6.jpeg';
 
 function About() {
   return (
@@ -19,12 +19,12 @@ function About() {
       </div>
       <div className="photos">
           <ul>
-            <li><img src={model1} className="small-portrait-img" alt="Pose-1"/></li>
-            <li><img src={model2} className="small-portrait-img" alt="Pose-2"/></li>
-            <li><img src={model4} className="small-portrait-img" alt="Pose-4"/></li>
-            <li><img src={model5} className="small-portrait-img" alt="Pose-5"/></li>
-            <li><img src={model6} className="small-portrait-img" alt="Pose-6"/></li>
-            <li><img src={model7} className="small-portrait-img" alt="Pose-7"/></li>
+            <li><img src={action1} className="small-portrait-img" alt="Photo shoot pose 1"/></li>
+            <li><img src={action2} className="small-portrait-img" alt="Photo shoot pose 2"/></li>
+            <li><img src={action3} className="small-portrait-img" alt="Photo shoot pose 3"/></li>
+            <li><img src={action4} className="small-portrait-img" alt="Photo shoot pose 4"/></li>
+            <li><img src={action5} className="small-portrait-img" alt="Photo shoot pose 5"/></li>
+            <li><img src={action6} className="small-portrait-img" alt="Photo shoot pose 6"/></li>
           </ul>
         </div>
       </div>
