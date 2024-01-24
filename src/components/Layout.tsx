@@ -8,7 +8,7 @@ const Layout = () => {
   return (
     <div className="layout">
       <nav className="navContainer">
-        <ul className="navItems">
+        <ul className="navPill">
           <li><NavLink to="/">home</NavLink></li>
           <li><NavLink to="/about">about me</NavLink></li>
           <li><NavLink to="/music">music</NavLink></li>
