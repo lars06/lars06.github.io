@@ -142,13 +142,19 @@ nav a.active {
 .soundcloudList {
     display: block;
     width: 25vw;
-    padding-bottom: 1.25em;
+    padding-bottom: 8em;
 }
 
 .soundcloudFrame {
     width: calc(150px + 30vw);
     height: 150px;
     margin-bottom: 1em;
+}
+
+.youtubeFrame {
+    width: calc(150px + 30vw);
+    aspect-ratio: 16 / 9;
+    margin-bottom: 3.5em;
 }
 
 @media only screen and (max-width: 800px) {
