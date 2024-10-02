@@ -6,7 +6,16 @@ function Music() {
     <div className="content">
         <h1>music</h1>
         <h2>for media</h2>
-        <p>film composition</p>
+        <h3>film composition</h3>
+        <iframe
+            className="youtubeFrame"
+            src="https://www.youtube.com/embed/yg0GvC5yMcU?si=8jxfCPQvHpJkjhk_"
+            title="Indie Film Music Contest entry 2020 (revised)"
+            frameBorder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen>
+        </iframe>
         <iframe
             className="youtubeFrame"
             src="https://www.youtube.com/embed/3hQE1J94uos?si=5vU_xpShasye0MeR"
@@ -16,7 +25,7 @@ function Music() {
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen>
         </iframe>
-        <p>musical theatre</p>
+        <h3>musical theatre</h3>
         <div className="soundcloudList">
             <iframe
               className="soundcloudFrame"
@@ -27,7 +36,7 @@ function Music() {
             </iframe>
         </div>
         <h2>for piano</h2>
-        <p>live recordings of piano improvisations</p>
+        <h3>live recordings of piano improvisations</h3>
         <div className="soundcloudList">
             <iframe
               className="soundcloudFrame"

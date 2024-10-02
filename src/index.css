@@ -134,6 +134,12 @@ nav a.active {
     padding-bottom: 2vh;
 }
 
+.content h3 {
+    font-size: calc(8px + 2vmin);
+    color: lightgrey;
+    padding-bottom: 2vh;
+}
+
 .content p {
     font-size: calc(10px + 1.5vmin);
     color: white;
