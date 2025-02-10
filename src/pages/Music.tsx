@@ -9,6 +9,15 @@ function Music() {
         <h3>film composition</h3>
         <iframe
             className="youtubeFrame"
+            src="https://www.youtube.com/embed/JhaLFgvbgtk?si=23dWvW5LMP3CxpM4"
+            title="Indie Film Music Contest entry 2025"
+            frameBorder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen>
+        </iframe>
+        <iframe
+            className="youtubeFrame"
             src="https://www.youtube.com/embed/yg0GvC5yMcU?si=8jxfCPQvHpJkjhk_"
             title="Indie Film Music Contest entry 2020 (revised)"
             frameBorder="0"
