@@ -13,7 +13,7 @@ function About() {
     <div>
       <div className="content">
           <h1>about me</h1>
-          <p>hi i'm lars and welcome to lars.au, the goto website for lars.</p>
+          <p>hi i'm lars mellick and welcome to lars.au, the goto website for lars.</p>
           <p>after working as a software engineer for several years, i am currently pursuing projects in various areas of music, software, and writing.</p>
           <p>drop me a message on one of the social pipes!</p>
           <div className="photos">
