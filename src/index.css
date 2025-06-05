@@ -137,11 +137,15 @@ details {
     padding-bottom: 2vh;
 }
 
+details > * {
+    padding: calc(10px + 1vw);
+}
+
 details summary {
     font-size: calc(30px + 1.5vw);
     font-weight: bold;
     color: white;
-    padding-bottom: 2vh;
+    padding: 0;
 }
 
 .content p {
@@ -155,7 +159,6 @@ details summary {
     flex-wrap: wrap;
     gap: calc(5px + 1vw + 1vh);
     align-items: center;
-    padding: calc(10px + 1vw);
 }
 
 .music-section .music-text {

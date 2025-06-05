@@ -12,14 +12,15 @@ function Music() {
         <div className="music-section">
           <img src={epCover} className="music-image" alt="Just A Position EP cover"/>
           <div className="music-text">
-            <p>I have released a solo piano/vocal EP called <a href="lars.au" target="_blank" rel="noopener noreferrer">JUST A POSITION</a>.</p>
-            <p>It's a series of songs about place, written whilst living across three different cities in Australia and Germany.</p>
-            <p>You can find the EP on all streaming services, and if you enjoy it please consider supporting me on Bandcamp!</p>
+            <p>i will soon be releasing a solo piano/vocal EP called JUST A POSITION</p>
+            <p>it's a series of songs about place, written whilst living across three different cities in Australia and Germany.</p>
+            <p>you'll be able to find the EP on all streaming services, and if you enjoy it please consider supporting me on Bandcamp!</p>
           </div>
         </div>
       </details>
       <details>
         <summary>film composing</summary>
+        <p>film music has always been a passion which i would love to pursue. have a listen to some sample projects which i scored and orchestrated myself!</p>
         <div>
           <iframe
             className="youtubeFrame"
@@ -56,13 +57,14 @@ function Music() {
           <img src={sagaCityLogo} className="music-image" alt="Saga City logo"/>
           <div className="music-text">
             <p><a href="sagacity.au" target="_blank" rel="noopener noreferrer">SAGA CITY</a> is a Melbourne-based neo-soul band.</p>
-            <p>We've been busy writing original tunes and gigging around the city. Come see us play at our next show!</p>
-            <p>Check out our website <a href="sagacity.au" target="_blank" rel="noopener noreferrer">sagacity.au</a> to get in contact and have a listen!</p>
+            <p>we've been busy writing original tunes and gigging around the city. come see us play at our next show!</p>
+            <p>check out our website <a href="sagacity.au" target="_blank" rel="noopener noreferrer">sagacity.au</a> to get in contact and have a listen!</p>
           </div>
         </div>
       </details>
       <details>
         <summary>solo piano</summary>
+        <p>i love performing and improvising on piano. have a listen to some improvisations and let me know if you would like me to play at your next event.</p>
         <div className="soundcloudList">
           <iframe
             className="soundcloudFrame"
@@ -82,6 +84,7 @@ function Music() {
       </details>
       <details>
         <summary>musical theatre</summary>
+        <p>myself and some well known writers are in the early stages of creating an original musical theatre production. check out my orchestration from the first song and send me a message to learn more!</p>
         <div className="soundcloudList">
           <iframe
             className="soundcloudFrame"
