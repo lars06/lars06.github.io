@@ -29,9 +29,14 @@
     padding-left: 1em;
     padding-right: 1em;
     width: calc(200px + 20vw);
+    height: 25px;
     background-color: #222222;
     border-radius: 20em;
     box-shadow: 0px 0px 50px black;
+}
+
+a {
+    color: lightgray;
 }
 
 nav a {
@@ -117,7 +122,7 @@ nav a.active {
 
 .content {
     padding-top: 16vh;
-    padding-bottom: 10vh;
+    padding-bottom: 12vh;
     padding-left: 14vw;
     padding-right: 14vw;
 }
@@ -125,6 +130,10 @@ nav a.active {
 .content h1 {
     font-size: calc(30px + 1.5vw);
     color: white;
+    padding-bottom: 2vh;
+}
+
+details {
     padding-bottom: 2vh;
 }
 
@@ -141,10 +150,26 @@ details summary {
     padding-bottom: 2vh;
 }
 
+.music-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(5px + 1vw + 1vh);
+    align-items: center;
+    padding: calc(10px + 1vw);
+}
+
+.music-section .music-text {
+    flex: 1 1 40vw;
+    max-width: 40w;
+}
+
+.music-section .music-image {
+    width: calc(180px + 8vw);
+}
+
 .soundcloudList {
     display: block;
     width: 25vw;
-    padding-bottom: 3em;
 }
 
 .soundcloudFrame {
