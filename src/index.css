@@ -122,7 +122,7 @@ nav a.active {
 
 .content {
     padding-top: 16vh;
-    padding-bottom: 12vh;
+    padding-bottom: 16vh;
     padding-left: 14vw;
     padding-right: 14vw;
 }
@@ -192,6 +192,10 @@ details summary {
         padding-top: 14vh;
         padding-bottom: 17vh;
     }
+}
+
+#aboutGrid {
+    padding-bottom: 0;
 }
 
 /*

@@ -12,9 +12,9 @@ function Music() {
         <div className="music-section">
           <img src={epCover} className="music-image" alt="Just A Position EP cover"/>
           <div className="music-text">
-            <p>i will soon be releasing a solo piano/vocal EP called JUST A POSITION</p>
+            <p>i will soon be releasing a solo piano/vocal EP called <em>just a position</em>.</p>
             <p>it's a series of songs about place, written whilst living across three different cities in Australia and Germany.</p>
-            <p>you'll be able to find the EP on all streaming services, and if you enjoy it please consider supporting me on Bandcamp!</p>
+            <p>you'll be able to find the EP on all streaming services soon, so follow on instagram for updates!</p>
           </div>
         </div>
       </details>
@@ -56,15 +56,15 @@ function Music() {
         <div className="music-section">
           <img src={sagaCityLogo} className="music-image" alt="Saga City logo"/>
           <div className="music-text">
-            <p><a href="sagacity.au" target="_blank" rel="noopener noreferrer">SAGA CITY</a> is a Melbourne-based neo-soul band.</p>
+            <p><a href="https://www.sagacity.au" target="_blank" rel="noopener noreferrer">SAGA CITY</a> is a Melbourne-based neo-soul band.</p>
             <p>we've been busy writing original tunes and gigging around the city. come see us play at our next show!</p>
-            <p>check out our website <a href="sagacity.au" target="_blank" rel="noopener noreferrer">sagacity.au</a> to get in contact and have a listen!</p>
+            <p>check out our website <a href="https://www.sagacity.au" target="_blank" rel="noopener noreferrer">sagacity.au</a> to get in contact and have a listen!</p>
           </div>
         </div>
       </details>
       <details>
         <summary>solo piano</summary>
-        <p>i love performing and improvising on piano. have a listen to some improvisations and let me know if you would like me to play at your next event.</p>
+        <p>i love performing and improvising on piano. have a listen to some improvisations and let me know if you would like to talk about having music at your next event!</p>
         <div className="soundcloudList">
           <iframe
             className="soundcloudFrame"
@@ -84,7 +84,7 @@ function Music() {
       </details>
       <details>
         <summary>musical theatre</summary>
-        <p>myself and some well known writers are in the early stages of creating an original musical theatre production. check out my orchestration from the first song and send me a message to learn more!</p>
+        <p>myself and some well known writers are in the early stages of creating an original musical theatre production. check out my orchestration from the opening song and send me a message to hear more!</p>
         <div className="soundcloudList">
           <iframe
             className="soundcloudFrame"
