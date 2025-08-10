@@ -1,5 +1,6 @@
 import React from 'react';
 import '../index.css';
+import { properties } from '../properties';
 
 import action1 from '../background-images/action-1.jpeg';
 import action2 from '../background-images/action-2.jpeg';
@@ -15,7 +16,8 @@ function About() {
         <h1>about me</h1>
         <p>hi i'm lars mellick and welcome to lars.au, the goto website for lars.</p>
         <p>after working as a software engineer for several years, i am currently pursuing projects in various areas of music, software, and writing. check out some of these projects on my <a href="#/music">music</a> page.</p>
-        <p>if you want to get in touch, drop me a message on one of the social pipes!</p>
+        <p>if you'd like to support me with my creative projects, a <a href={properties.kofiUrl} target="_blank" rel="noopener noreferrer">tip</a> would be really appreciated!</p>
+        <p>or if you want to get in touch, drop me a message on one of the social pipes!</p>
         <div className="photos" id="aboutGrid">
           <ul>
             <li><img src={action1} className="small-portrait-img" alt="Pose 1"/></li>
