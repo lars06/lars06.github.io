@@ -3,5 +3,6 @@ export const properties = {
     soundcloudUrl: "https://soundcloud.com/larsmellick",
     linkedinUrl: "https://linkedin.com/in/larsmellick",
     emailUrl: "mailto:hi@lars.au?subject=hi from website",
-    kofiUrl: "https://ko-fi.com/larsmellick"
+    kofiUrl: "https://ko-fi.com/larsmellick",
+    linktreeUrl: "https://tr.ee/D6Tmpwa4cS"
 };

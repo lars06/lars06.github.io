@@ -8,13 +8,13 @@ function Music() {
   return (
     <div className="content">
       <details open>
-        <summary><em>just a position</em> solo EP</summary>
+        <summary><em>Just a Position</em> solo EP</summary>
         <div className="music-section">
           <img src={epCover} className="music-image" alt="Just A Position EP cover"/>
           <div className="music-text">
-            <p>i will soon be releasing a solo piano/vocal EP called <em>just a position</em>.</p>
-            <p>it's a series of songs about place, written whilst living across three different cities in Australia and Germany.</p>
-            <p>you'll be able to find the EP on all streaming services soon, so follow on instagram for updates!</p>
+            <p>my solo piano/vocal EP named <em>Just a Position</em> is OUT NOW!</p>
+            <p>it's a series of songs about place, written whilst living across three different cities around the world.</p>
+            <p>check my <a href="https://tr.ee/D6Tmpwa4cS" target="_blank" rel="noopener noreferrer">Linktree</a> to find the EP on all streaming services and Bandcamp!</p>
           </div>
         </div>
       </details>

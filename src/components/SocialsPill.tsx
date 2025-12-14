@@ -8,7 +8,7 @@ const SocialsPill = () => {
     <div className="socialsContainer">
         <div className="socialsPill">
             <SocialIcon url={properties.instagramUrl} target="_blank"/>
-            <SocialIcon url={properties.soundcloudUrl} target="_blank"/>
+            <SocialIcon network="itunes" url={properties.linktreeUrl} target="_blank"/>
             <SocialIcon url={properties.linkedinUrl} target="_blank"/>
             <SocialIcon url={properties.emailUrl}/>
         </div>
