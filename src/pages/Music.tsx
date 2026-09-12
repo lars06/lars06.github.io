@@ -24,6 +24,15 @@ function Music() {
         <div>
           <iframe
             className="youtubeFrame"
+            src="https://www.youtube.com/embed/d8zYKJ0YmoY?si=1ZIUbDanq99k6hpn"
+            title="Indie Film Music Contest entry 2026"
+            frameBorder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen>
+          </iframe>
+          <iframe
+            className="youtubeFrame"
             src="https://www.youtube.com/embed/JhaLFgvbgtk?si=23dWvW5LMP3CxpM4"
             title="Indie Film Music Contest entry 2025"
             frameBorder="0"
